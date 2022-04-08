@@ -1,0 +1,7 @@
+x = input("請輸入一串小寫英文:")
+x1 = x.replace("a",".",x.count("a"))
+x2 = x1.replace("e",".",x1.count("e"))
+x3 = x2.replace("i",".",x2.count("i"))
+x4 = x3.replace("o",".",x3.count("o"))
+x5 = x4.replace("u",".",x4.count("u"))
+print(x5)
